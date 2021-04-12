@@ -10,11 +10,10 @@ import java.util.Scanner;
 public class Main {
     private static final Scanner scanner = new Scanner(System.in);
     private static int turn = 1;
-
-    private static String generateSecretCode(int length, int possibleCharacters) {
+    private static String generateSecretCode(int length) {
         StringBuilder strBuilder = new StringBuilder();
-        if (length > 36) {
-            System.out.println("Error: can't generate a secret number with a length of 37 because there aren't enough " +
+        if (length > 10) {
+            System.out.println("Error: can't generate a secret number with a length of 11 because there aren't enough " +
                     "unique digits.");
             return null;
         } else {
@@ -112,11 +111,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Input the length of the secret code:");
+        System.out.println("Please, enter the secret code's length:");
         int length = scanner.nextInt();
-        System.out.println("Input the number of possible symbols in the code:");
-        int possibleCharacters = scanner.nextInt();
-        String secretNumber = generateSecretCode(length, possibleCharacters);
+        String secretNumber = generateSecretCode(length);
         System.out.println("Okay, let's start a game!");
         guessSecretNumber(secretNumber, length);
         scanner.close();
