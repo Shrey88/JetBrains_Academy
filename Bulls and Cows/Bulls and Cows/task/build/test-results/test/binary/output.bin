@@ -1,29 +1,32 @@
 [1;31m
 Start test 1[0m
-)Please, enter the secret code's length:
+&Input the length of the secret code:
 > 1
+3Input the number of possible symbols in the code:
+> 10
+!The secret is prepared: * (0-9).
 Okay, let's start a game!
 	Turn 1:
 > 0
-NGrade: Cannot find number of bulls or number of cows or None after the input
-	Turn 2:
-> 1
 Grade: 1 bulls
 /Congratulations! You guessed the secret code.
 [1;31m
 Start test 2[0m
-)Please, enter the secret code's length:
+&Input the length of the secret code:
 > 4
+3Input the number of possible symbols in the code:
+> 10
+$The secret is prepared: **** (0-9).
 Okay, let's start a game!
 	Turn 1:
 > 0000
-NGrade: Cannot find number of bulls or number of cows or None after the input
+Grade: 1 bull and 3 cows
 	Turn 2:
 > 1111
-Grade: 1 bull and 3 cows
+NGrade: Cannot find number of bulls or number of cows or None after the input
 	Turn 3:
 > 2222
-Grade: 1 bull and 3 cows
+NGrade: Cannot find number of bulls or number of cows or None after the input
 	Turn 4:
 > 3333
 NGrade: Cannot find number of bulls or number of cows or None after the input
@@ -35,74 +38,77 @@
 NGrade: Cannot find number of bulls or number of cows or None after the input
 	Turn 7:
 > 6666
-Grade: 1 bull and 3 cows
+NGrade: Cannot find number of bulls or number of cows or None after the input
 	Turn 8:
 > 7777
-NGrade: Cannot find number of bulls or number of cows or None after the input
+Grade: 1 bull and 3 cows
 	Turn 9:
 > 8888
 Grade: 1 bull and 3 cows
 
 Turn 10:
-> 1268
-Grade: 4 cows
+> 9999
+Grade: 1 bull and 3 cows
 
 Turn 11:
-> 2168
+> 0789
 Grade: 1 bull and 3 cows
 
 Turn 12:
-> 6128
-Grade: 2 bulls and 2 cows
+> 7089
+Grade: 4 cows
 
 Turn 13:
-> 1628
+> 8079
 Grade: 4 cows
 
 Turn 14:
-> 2618
-Grade: 4 cows
+> 0879
+Grade: 2 bulls and 2 cows
 
 Turn 15:
-> 6218
+> 7809
 Grade: 1 bull and 3 cows
 
 Turn 16:
-> 8216
+> 8709
 Grade: 4 cows
 
 Turn 17:
-> 2816
+> 9708
 Grade: 4 cows
 
 Turn 18:
-> 1826
+> 7908
 Grade: 4 cows
 
 Turn 19:
-> 8126
+> 0978
 Grade: 1 bull and 3 cows
 
 Turn 20:
-> 2186
-Grade: 2 bulls and 2 cows
+> 9078
+Grade: 4 cows
 
 Turn 21:
-> 1286
+> 7098
 Grade: 1 bull and 3 cows
 
 Turn 22:
-> 1682
+> 0798
 Grade: 2 bulls and 2 cows
 
 Turn 23:
-> 6182
+> 0897
 Grade: 4 bulls
 /Congratulations! You guessed the secret code.
 [1;31m
 Start test 3[0m
-)Please, enter the secret code's length:
+&Input the length of the secret code:
 > 6
+3Input the number of possible symbols in the code:
+> 10
+&The secret is prepared: ****** (0-9).
 Okay, let's start a game!
 	Turn 1:
 	> 000000
@@ -118,7 +124,7 @@ Turn 23:
 Grade: 1 bull and 5 cows
 	Turn 5:
 	> 444444
-Grade: 1 bull and 5 cows
+NGrade: Cannot find number of bulls or number of cows or None after the input
 	Turn 6:
 	> 555555
 Grade: 1 bull and 5 cows
@@ -133,1026 +139,2524 @@ Turn 23:
 Grade: 1 bull and 5 cows
 
 Turn 10:
-	> 034578
-Grade: 6 cows
-
-Turn 11:
-	> 304578
-Grade: 6 cows
-
-Turn 12:
-	> 403578
-Grade: 6 cows
-
-Turn 13:
-	> 043578
-Grade: 6 cows
-
-Turn 14:
-	> 340578
+	> 999999
 Grade: 1 bull and 5 cows
 
+Turn 11:
+	> 035789
+Grade: 2 bulls and 4 cows
+
+Turn 12:
+	> 305789
+Grade: 1 bull and 5 cows
+
+Turn 13:
+	> 503789
+Grade: 1 bull and 5 cows
+
+Turn 14:
+	> 053789
+Grade: 2 bulls and 4 cows
+
 Turn 15:
-	> 430578
+	> 350789
 Grade: 1 bull and 5 cows
 
 Turn 16:
-	> 530478
-Grade: 2 bulls and 4 cows
-
-Turn 17:
-	> 350478
+	> 530789
 Grade: 1 bull and 5 cows
 
+Turn 17:
+	> 730589
+Grade: 6 cows
+
 Turn 18:
-	> 053478
+	> 370589
 Grade: 6 cows
 
 Turn 19:
-	> 503478
+	> 073589
 Grade: 1 bull and 5 cows
 
 Turn 20:
-	> 305478
+	> 703589
 Grade: 6 cows
 
 Turn 21:
-	> 035478
+	> 307589
 Grade: 6 cows
 
 Turn 22:
-	> 045378
-Grade: 6 cows
-
-Turn 23:
-	> 405378
-Grade: 6 cows
-
-Turn 24:
-	> 504378
+	> 037589
 Grade: 1 bull and 5 cows
 
+Turn 23:
+	> 057389
+Grade: 1 bull and 5 cows
+
+Turn 24:
+	> 507389
+Grade: 6 cows
+
 Turn 25:
-	> 054378
+	> 705389
 Grade: 6 cows
 
 Turn 26:
-	> 450378
+	> 075389
 Grade: 1 bull and 5 cows
 
 Turn 27:
-	> 540378
-Grade: 2 bulls and 4 cows
+	> 570389
+Grade: 6 cows
 
 Turn 28:
-	> 543078
-Grade: 1 bull and 5 cows
+	> 750389
+Grade: 6 cows
 
 Turn 29:
-	> 453078
+	> 753089
 Grade: 6 cows
 
 Turn 30:
-	> 354078
+	> 573089
 Grade: 6 cows
 
 Turn 31:
-	> 534078
-Grade: 1 bull and 5 cows
+	> 375089
+Grade: 6 cows
 
 Turn 32:
-	> 435078
+	> 735089
 Grade: 6 cows
 
 Turn 33:
-	> 345078
+	> 537089
 Grade: 6 cows
 
 Turn 34:
-	> 745038
+	> 357089
 Grade: 6 cows
 
 Turn 35:
-	> 475038
+	> 857039
 Grade: 6 cows
 
 Turn 36:
-	> 574038
+	> 587039
 Grade: 1 bull and 5 cows
 
 Turn 37:
-	> 754038
-Grade: 6 cows
+	> 785039
+Grade: 1 bull and 5 cows
 
 Turn 38:
-	> 457038
+	> 875039
 Grade: 6 cows
 
 Turn 39:
-	> 547038
-Grade: 1 bull and 5 cows
+	> 578039
+Grade: 6 cows
 
 Turn 40:
-	> 047538
+	> 758039
 Grade: 6 cows
 
 Turn 41:
-	> 407538
-Grade: 6 cows
+	> 058739
+Grade: 2 bulls and 4 cows
 
 Turn 42:
-	> 704538
-Grade: 6 cows
+	> 508739
+Grade: 1 bull and 5 cows
 
 Turn 43:
-	> 074538
-Grade: 6 cows
+	> 805739
+Grade: 1 bull and 5 cows
 
 Turn 44:
-	> 470538
-Grade: 1 bull and 5 cows
+	> 085739
+Grade: 3 bulls and 3 cows
 
 Turn 45:
-	> 740538
-Grade: 1 bull and 5 cows
+	> 580739
+Grade: 2 bulls and 4 cows
 
 Turn 46:
-	> 750438
+	> 850739
 Grade: 1 bull and 5 cows
 
 Turn 47:
-	> 570438
-Grade: 2 bulls and 4 cows
+	> 870539
+Grade: 6 cows
 
 Turn 48:
-	> 075438
-Grade: 6 cows
-
-Turn 49:
-	> 705438
-Grade: 6 cows
-
-Turn 50:
-	> 507438
+	> 780539
 Grade: 1 bull and 5 cows
 
+Turn 49:
+	> 087539
+Grade: 2 bulls and 4 cows
+
+Turn 50:
+	> 807539
+Grade: 6 cows
+
 Turn 51:
-	> 057438
+	> 708539
 Grade: 6 cows
 
 Turn 52:
-	> 054738
+	> 078539
 Grade: 1 bull and 5 cows
 
 Turn 53:
-	> 504738
-Grade: 2 bulls and 4 cows
+	> 075839
+Grade: 1 bull and 5 cows
 
 Turn 54:
-	> 405738
-Grade: 1 bull and 5 cows
+	> 705839
+Grade: 6 cows
 
 Turn 55:
-	> 045738
-Grade: 1 bull and 5 cows
+	> 507839
+Grade: 6 cows
 
 Turn 56:
-	> 540738
-Grade: 3 bulls and 3 cows
+	> 057839
+Grade: 1 bull and 5 cows
 
 Turn 57:
-	> 450738
-Grade: 2 bulls and 4 cows
+	> 750839
+Grade: 6 cows
 
 Turn 58:
-	> 350748
-Grade: 3 bulls and 3 cows
+	> 570839
+Grade: 6 cows
 
 Turn 59:
-	> 530748
-Grade: 4 bulls and 2 cows
+	> 370859
+Grade: 1 bull and 5 cows
 
 Turn 60:
-	> 035748
-Grade: 2 bulls and 4 cows
+	> 730859
+Grade: 1 bull and 5 cows
 
 Turn 61:
-	> 305748
+	> 037859
 Grade: 2 bulls and 4 cows
 
 Turn 62:
-	> 503748
-Grade: 3 bulls and 3 cows
+	> 307859
+Grade: 1 bull and 5 cows
 
 Turn 63:
-	> 053748
-Grade: 2 bulls and 4 cows
+	> 703859
+Grade: 1 bull and 5 cows
 
 Turn 64:
-	> 753048
-Grade: 1 bull and 5 cows
+	> 073859
+Grade: 2 bulls and 4 cows
 
 Turn 65:
-	> 573048
-Grade: 2 bulls and 4 cows
+	> 873059
+Grade: 1 bull and 5 cows
 
 Turn 66:
-	> 375048
-Grade: 1 bull and 5 cows
-
-Turn 67:
-	> 735048
-Grade: 1 bull and 5 cows
-
-Turn 68:
-	> 537048
+	> 783059
 Grade: 2 bulls and 4 cows
 
+Turn 67:
+	> 387059
+Grade: 2 bulls and 4 cows
+
+Turn 68:
+	> 837059
+Grade: 1 bull and 5 cows
+
 Turn 69:
-	> 357048
+	> 738059
 Grade: 1 bull and 5 cows
 
 Turn 70:
-	> 307548
+	> 378059
 Grade: 1 bull and 5 cows
 
 Turn 71:
-	> 037548
-Grade: 1 bull and 5 cows
-
-Turn 72:
-	> 730548
+	> 308759
 Grade: 2 bulls and 4 cows
 
+Turn 72:
+	> 038759
+Grade: 3 bulls and 3 cows
+
 Turn 73:
-	> 370548
+	> 830759
 Grade: 2 bulls and 4 cows
 
 Turn 74:
-	> 073548
-Grade: 1 bull and 5 cows
+	> 380759
+Grade: 3 bulls and 3 cows
 
 Turn 75:
-	> 703548
-Grade: 1 bull and 5 cows
+	> 083759
+Grade: 4 bulls and 2 cows
 
 Turn 76:
-	> 705348
-Grade: 1 bull and 5 cows
+	> 803759
+Grade: 2 bulls and 4 cows
 
 Turn 77:
-	> 075348
+	> 807359
 Grade: 1 bull and 5 cows
 
 Turn 78:
-	> 570348
+	> 087359
 Grade: 3 bulls and 3 cows
 
 Turn 79:
-	> 750348
+	> 780359
 Grade: 2 bulls and 4 cows
 
 Turn 80:
-	> 057348
+	> 870359
 Grade: 1 bull and 5 cows
 
 Turn 81:
-	> 507348
+	> 078359
 Grade: 2 bulls and 4 cows
 
 Turn 82:
-	> 407358
-Grade: 6 cows
+	> 708359
+Grade: 1 bull and 5 cows
 
 Turn 83:
-	> 047358
+	> 508379
 Grade: 6 cows
 
 Turn 84:
-	> 740358
+	> 058379
 Grade: 1 bull and 5 cows
 
 Turn 85:
-	> 470358
-Grade: 1 bull and 5 cows
+	> 850379
+Grade: 6 cows
 
 Turn 86:
-	> 074358
-Grade: 6 cows
+	> 580379
+Grade: 1 bull and 5 cows
 
 Turn 87:
-	> 704358
-Grade: 6 cows
+	> 085379
+Grade: 2 bulls and 4 cows
 
 Turn 88:
-	> 304758
-Grade: 1 bull and 5 cows
+	> 805379
+Grade: 6 cows
 
 Turn 89:
-	> 034758
-Grade: 1 bull and 5 cows
+	> 305879
+Grade: 6 cows
 
 Turn 90:
-	> 430758
-Grade: 2 bulls and 4 cows
-
-Turn 91:
-	> 340758
-Grade: 2 bulls and 4 cows
-
-Turn 92:
-	> 043758
+	> 035879
 Grade: 1 bull and 5 cows
 
+Turn 91:
+	> 530879
+Grade: 6 cows
+
+Turn 92:
+	> 350879
+Grade: 6 cows
+
 Turn 93:
-	> 403758
+	> 053879
 Grade: 1 bull and 5 cows
 
 Turn 94:
-	> 473058
+	> 503879
 Grade: 6 cows
 
 Turn 95:
-	> 743058
-Grade: 6 cows
+	> 583079
+Grade: 1 bull and 5 cows
 
 Turn 96:
-	> 347058
+	> 853079
 Grade: 6 cows
 
 Turn 97:
-	> 437058
+	> 358079
 Grade: 6 cows
 
 Turn 98:
-	> 734058
+	> 538079
 Grade: 6 cows
 
 Turn 99:
-	> 374058
+	> 835079
 Grade: 6 cows
 Turn 100:
-	> 370458
+	> 385079
 Grade: 1 bull and 5 cows
 Turn 101:
-	> 730458
+	> 380579
 Grade: 1 bull and 5 cows
 Turn 102:
-	> 037458
+	> 830579
 Grade: 6 cows
 Turn 103:
-	> 307458
-Grade: 6 cows
+	> 038579
+Grade: 1 bull and 5 cows
 Turn 104:
-	> 703458
+	> 308579
 Grade: 6 cows
 Turn 105:
-	> 073458
+	> 803579
 Grade: 6 cows
 Turn 106:
-	> 573408
-Grade: 1 bull and 5 cows
+	> 083579
+Grade: 2 bulls and 4 cows
 Turn 107:
-	> 753408
-Grade: 6 cows
+	> 783509
+Grade: 1 bull and 5 cows
 Turn 108:
-	> 357408
+	> 873509
 Grade: 6 cows
 Turn 109:
-	> 537408
-Grade: 1 bull and 5 cows
+	> 378509
+Grade: 6 cows
 Turn 110:
-	> 735408
+	> 738509
 Grade: 6 cows
 Turn 111:
-	> 375408
+	> 837509
 Grade: 6 cows
 Turn 112:
-	> 475308
-Grade: 6 cows
-Turn 113:
-	> 745308
-Grade: 6 cows
-Turn 114:
-	> 547308
+	> 387509
 Grade: 1 bull and 5 cows
+Turn 113:
+	> 587309
+Grade: 1 bull and 5 cows
+Turn 114:
+	> 857309
+Grade: 6 cows
 Turn 115:
-	> 457308
+	> 758309
 Grade: 6 cows
 Turn 116:
-	> 754308
+	> 578309
 Grade: 6 cows
 Turn 117:
-	> 574308
-Grade: 1 bull and 5 cows
+	> 875309
+Grade: 6 cows
 Turn 118:
-	> 534708
-Grade: 2 bulls and 4 cows
+	> 785309
+Grade: 1 bull and 5 cows
 Turn 119:
-	> 354708
-Grade: 1 bull and 5 cows
+	> 735809
+Grade: 6 cows
 Turn 120:
-	> 453708
-Grade: 1 bull and 5 cows
+	> 375809
+Grade: 6 cows
 Turn 121:
-	> 543708
-Grade: 2 bulls and 4 cows
+	> 573809
+Grade: 6 cows
 Turn 122:
-	> 345708
-Grade: 1 bull and 5 cows
+	> 753809
+Grade: 6 cows
 Turn 123:
-	> 435708
-Grade: 1 bull and 5 cows
+	> 357809
+Grade: 6 cows
 Turn 124:
-	> 437508
+	> 537809
 Grade: 6 cows
 Turn 125:
-	> 347508
-Grade: 6 cows
+	> 538709
+Grade: 1 bull and 5 cows
 Turn 126:
-	> 743508
-Grade: 6 cows
+	> 358709
+Grade: 1 bull and 5 cows
 Turn 127:
-	> 473508
-Grade: 6 cows
+	> 853709
+Grade: 1 bull and 5 cows
 Turn 128:
-	> 374508
-Grade: 6 cows
+	> 583709
+Grade: 2 bulls and 4 cows
 Turn 129:
-	> 734508
-Grade: 6 cows
+	> 385709
+Grade: 2 bulls and 4 cows
 Turn 130:
-	> 834507
-Grade: 6 cows
+	> 835709
+Grade: 1 bull and 5 cows
 Turn 131:
-	> 384507
+	> 935708
 Grade: 1 bull and 5 cows
 Turn 132:
-	> 483507
+	> 395708
 Grade: 1 bull and 5 cows
 Turn 133:
-	> 843507
-Grade: 6 cows
+	> 593708
+Grade: 1 bull and 5 cows
 Turn 134:
-	> 348507
-Grade: 6 cows
+	> 953708
+Grade: 1 bull and 5 cows
 Turn 135:
-	> 438507
-Grade: 6 cows
-Turn 136:
-	> 538407
-Grade: 1 bull and 5 cows
-Turn 137:
-	> 358407
-Grade: 6 cows
-Turn 138:
-	> 853407
-Grade: 6 cows
-Turn 139:
-	> 583407
+	> 359708
 Grade: 2 bulls and 4 cows
-Turn 140:
-	> 385407
+Turn 136:
+	> 539708
+Grade: 2 bulls and 4 cows
+Turn 137:
+	> 739508
 Grade: 1 bull and 5 cows
+Turn 138:
+	> 379508
+Grade: 1 bull and 5 cows
+Turn 139:
+	> 973508
+Grade: 6 cows
+Turn 140:
+	> 793508
+Grade: 6 cows
 Turn 141:
-	> 835407
+	> 397508
 Grade: 6 cows
 Turn 142:
-	> 845307
+	> 937508
 Grade: 6 cows
 Turn 143:
-	> 485307
-Grade: 1 bull and 5 cows
+	> 957308
+Grade: 6 cows
 Turn 144:
-	> 584307
-Grade: 2 bulls and 4 cows
+	> 597308
+Grade: 6 cows
 Turn 145:
-	> 854307
+	> 795308
 Grade: 6 cows
 Turn 146:
-	> 458307
+	> 975308
 Grade: 6 cows
 Turn 147:
-	> 548307
+	> 579308
 Grade: 1 bull and 5 cows
 Turn 148:
-	> 543807
+	> 759308
 Grade: 1 bull and 5 cows
 Turn 149:
-	> 453807
+	> 753908
 Grade: 6 cows
 Turn 150:
-	> 354807
+	> 573908
 Grade: 6 cows
 Turn 151:
-	> 534807
-Grade: 1 bull and 5 cows
+	> 375908
+Grade: 6 cows
 Turn 152:
-	> 435807
+	> 735908
 Grade: 6 cows
 Turn 153:
-	> 345807
+	> 537908
 Grade: 6 cows
 Turn 154:
-	> 045837
+	> 357908
 Grade: 6 cows
 Turn 155:
-	> 405837
-Grade: 6 cows
-Turn 156:
-	> 504837
+	> 057938
 Grade: 1 bull and 5 cows
+Turn 156:
+	> 507938
+Grade: 6 cows
 Turn 157:
-	> 054837
+	> 705938
 Grade: 6 cows
 Turn 158:
-	> 450837
+	> 075938
 Grade: 1 bull and 5 cows
 Turn 159:
-	> 540837
-Grade: 2 bulls and 4 cows
+	> 570938
+Grade: 6 cows
 Turn 160:
-	> 840537
-Grade: 1 bull and 5 cows
+	> 750938
+Grade: 6 cows
 Turn 161:
-	> 480537
-Grade: 2 bulls and 4 cows
+	> 950738
+Grade: 1 bull and 5 cows
 Turn 162:
-	> 084537
+	> 590738
 Grade: 1 bull and 5 cows
 Turn 163:
-	> 804537
-Grade: 6 cows
+	> 095738
+Grade: 2 bulls and 4 cows
 Turn 164:
-	> 408537
-Grade: 6 cows
+	> 905738
+Grade: 1 bull and 5 cows
 Turn 165:
-	> 048537
-Grade: 6 cows
+	> 509738
+Grade: 2 bulls and 4 cows
 Turn 166:
-	> 058437
-Grade: 6 cows
-Turn 167:
-	> 508437
-Grade: 1 bull and 5 cows
-Turn 168:
-	> 805437
-Grade: 6 cows
-Turn 169:
-	> 085437
-Grade: 1 bull and 5 cows
-Turn 170:
-	> 580437
+	> 059738
 Grade: 3 bulls and 3 cows
-Turn 171:
-	> 850437
+Turn 167:
+	> 079538
+Grade: 2 bulls and 4 cows
+Turn 168:
+	> 709538
 Grade: 1 bull and 5 cows
+Turn 169:
+	> 907538
+Grade: 6 cows
+Turn 170:
+	> 097538
+Grade: 1 bull and 5 cows
+Turn 171:
+	> 790538
+Grade: 6 cows
 Turn 172:
-	> 854037
+	> 970538
 Grade: 6 cows
 Turn 173:
-	> 584037
-Grade: 2 bulls and 4 cows
+	> 975038
+Grade: 6 cows
 Turn 174:
-	> 485037
-Grade: 1 bull and 5 cows
+	> 795038
+Grade: 6 cows
 Turn 175:
-	> 845037
+	> 597038
 Grade: 6 cows
 Turn 176:
-	> 548037
-Grade: 1 bull and 5 cows
-Turn 177:
-	> 458037
+	> 957038
 Grade: 6 cows
+Turn 177:
+	> 759038
+Grade: 1 bull and 5 cows
 Turn 178:
-	> 358047
+	> 579038
 Grade: 1 bull and 5 cows
 Turn 179:
-	> 538047
+	> 379058
 Grade: 2 bulls and 4 cows
 Turn 180:
-	> 835047
-Grade: 1 bull and 5 cows
-Turn 181:
-	> 385047
+	> 739058
 Grade: 2 bulls and 4 cows
+Turn 181:
+	> 937058
+Grade: 1 bull and 5 cows
 Turn 182:
-	> 583047
-Grade: 3 bulls and 3 cows
+	> 397058
+Grade: 1 bull and 5 cows
 Turn 183:
-	> 853047
+	> 793058
 Grade: 1 bull and 5 cows
 Turn 184:
-	> 053847
+	> 973058
 Grade: 1 bull and 5 cows
 Turn 185:
-	> 503847
+	> 073958
 Grade: 2 bulls and 4 cows
 Turn 186:
-	> 305847
+	> 703958
 Grade: 1 bull and 5 cows
 Turn 187:
-	> 035847
+	> 307958
 Grade: 1 bull and 5 cows
 Turn 188:
-	> 530847
-Grade: 3 bulls and 3 cows
-Turn 189:
-	> 350847
+	> 037958
 Grade: 2 bulls and 4 cows
+Turn 189:
+	> 730958
+Grade: 1 bull and 5 cows
 Turn 190:
-	> 380547
-Grade: 3 bulls and 3 cows
+	> 370958
+Grade: 1 bull and 5 cows
 Turn 191:
-	> 830547
+	> 390758
 Grade: 2 bulls and 4 cows
 Turn 192:
-	> 038547
-Grade: 1 bull and 5 cows
+	> 930758
+Grade: 2 bulls and 4 cows
 Turn 193:
-	> 308547
-Grade: 1 bull and 5 cows
+	> 039758
+Grade: 4 bulls and 2 cows
 Turn 194:
-	> 803547
-Grade: 1 bull and 5 cows
+	> 309758
+Grade: 3 bulls and 3 cows
 Turn 195:
-	> 083547
+	> 903758
 Grade: 2 bulls and 4 cows
 Turn 196:
-	> 085347
-Grade: 2 bulls and 4 cows
+	> 093758
+Grade: 3 bulls and 3 cows
 Turn 197:
-	> 805347
-Grade: 1 bull and 5 cows
+	> 097358
+Grade: 2 bulls and 4 cows
 Turn 198:
-	> 508347
-Grade: 2 bulls and 4 cows
+	> 907358
+Grade: 1 bull and 5 cows
 Turn 199:
-	> 058347
-Grade: 1 bull and 5 cows
+	> 709358
+Grade: 2 bulls and 4 cows
 Turn 200:
-	> 850347
-Grade: 2 bulls and 4 cows
+	> 079358
+Grade: 3 bulls and 3 cows
 Turn 201:
-	> 580347
-Grade: 4 bulls and 2 cows
-Turn 202:
-	> 480357
-Grade: 2 bulls and 4 cows
-Turn 203:
-	> 840357
+	> 970358
 Grade: 1 bull and 5 cows
+Turn 202:
+	> 790358
+Grade: 1 bull and 5 cows
+Turn 203:
+	> 590378
+Grade: 6 cows
 Turn 204:
-	> 048357
+	> 950378
 Grade: 6 cows
 Turn 205:
-	> 408357
-Grade: 6 cows
+	> 059378
+Grade: 2 bulls and 4 cows
 Turn 206:
-	> 804357
-Grade: 6 cows
-Turn 207:
-	> 084357
+	> 509378
 Grade: 1 bull and 5 cows
+Turn 207:
+	> 905378
+Grade: 6 cows
 Turn 208:
-	> 384057
+	> 095378
 Grade: 1 bull and 5 cows
 Turn 209:
-	> 834057
+	> 395078
 Grade: 6 cows
 Turn 210:
-	> 438057
+	> 935078
 Grade: 6 cows
 Turn 211:
-	> 348057
-Grade: 6 cows
-Turn 212:
-	> 843057
-Grade: 6 cows
-Turn 213:
-	> 483057
+	> 539078
 Grade: 1 bull and 5 cows
+Turn 212:
+	> 359078
+Grade: 1 bull and 5 cows
+Turn 213:
+	> 953078
+Grade: 6 cows
 Turn 214:
-	> 403857
+	> 593078
 Grade: 6 cows
 Turn 215:
-	> 043857
+	> 503978
 Grade: 6 cows
 Turn 216:
-	> 340857
+	> 053978
 Grade: 1 bull and 5 cows
 Turn 217:
-	> 430857
-Grade: 1 bull and 5 cows
+	> 350978
+Grade: 6 cows
 Turn 218:
-	> 034857
+	> 530978
 Grade: 6 cows
 Turn 219:
-	> 304857
-Grade: 6 cows
+	> 035978
+Grade: 1 bull and 5 cows
 Turn 220:
-	> 308457
+	> 305978
 Grade: 6 cows
 Turn 221:
-	> 038457
-Grade: 6 cows
+	> 309578
+Grade: 1 bull and 5 cows
 Turn 222:
-	> 830457
-Grade: 1 bull and 5 cows
-Turn 223:
-	> 380457
+	> 039578
 Grade: 2 bulls and 4 cows
-Turn 224:
-	> 083457
-Grade: 1 bull and 5 cows
-Turn 225:
-	> 803457
+Turn 223:
+	> 930578
 Grade: 6 cows
-Turn 226:
-	> 503487
+Turn 224:
+	> 390578
+Grade: 6 cows
+Turn 225:
+	> 093578
 Grade: 1 bull and 5 cows
+Turn 226:
+	> 903578
+Grade: 6 cows
 Turn 227:
-	> 053487
+	> 703598
 Grade: 6 cows
 Turn 228:
-	> 350487
+	> 073598
 Grade: 1 bull and 5 cows
 Turn 229:
-	> 530487
-Grade: 2 bulls and 4 cows
+	> 370598
+Grade: 6 cows
 Turn 230:
-	> 035487
+	> 730598
 Grade: 6 cows
 Turn 231:
-	> 305487
-Grade: 6 cows
+	> 037598
+Grade: 1 bull and 5 cows
 Turn 232:
-	> 405387
+	> 307598
 Grade: 6 cows
 Turn 233:
-	> 045387
+	> 507398
 Grade: 6 cows
 Turn 234:
-	> 540387
-Grade: 2 bulls and 4 cows
-Turn 235:
-	> 450387
+	> 057398
 Grade: 1 bull and 5 cows
+Turn 235:
+	> 750398
+Grade: 6 cows
 Turn 236:
-	> 054387
+	> 570398
 Grade: 6 cows
 Turn 237:
-	> 504387
+	> 075398
 Grade: 1 bull and 5 cows
 Turn 238:
-	> 534087
-Grade: 1 bull and 5 cows
+	> 705398
+Grade: 6 cows
 Turn 239:
-	> 354087
+	> 735098
 Grade: 6 cows
 Turn 240:
-	> 453087
+	> 375098
 Grade: 6 cows
 Turn 241:
-	> 543087
-Grade: 1 bull and 5 cows
+	> 573098
+Grade: 6 cows
 Turn 242:
-	> 345087
+	> 753098
 Grade: 6 cows
 Turn 243:
-	> 435087
+	> 357098
 Grade: 6 cows
 Turn 244:
-	> 430587
-Grade: 1 bull and 5 cows
+	> 537098
+Grade: 6 cows
 Turn 245:
-	> 340587
+	> 530798
 Grade: 1 bull and 5 cows
 Turn 246:
-	> 043587
-Grade: 6 cows
+	> 350798
+Grade: 1 bull and 5 cows
 Turn 247:
-	> 403587
-Grade: 6 cows
-Turn 248:
-	> 304587
-Grade: 6 cows
-Turn 249:
-	> 034587
-Grade: 6 cows
-Turn 250:
-	> 074583
-Grade: 1 bull and 5 cows
-Turn 251:
-	> 704583
-Grade: 1 bull and 5 cows
-Turn 252:
-	> 407583
-Grade: 1 bull and 5 cows
-Turn 253:
-	> 047583
-Grade: 1 bull and 5 cows
-Turn 254:
-	> 740583
+	> 053798
 Grade: 2 bulls and 4 cows
+Turn 248:
+	> 503798
+Grade: 1 bull and 5 cows
+Turn 249:
+	> 305798
+Grade: 1 bull and 5 cows
+Turn 250:
+	> 035798
+Grade: 2 bulls and 4 cows
+Turn 251:
+	> 085793
+Grade: 4 bulls and 2 cows
+Turn 252:
+	> 805793
+Grade: 2 bulls and 4 cows
+Turn 253:
+	> 508793
+Grade: 2 bulls and 4 cows
+Turn 254:
+	> 058793
+Grade: 3 bulls and 3 cows
 Turn 255:
-	> 470583
+	> 850793
 Grade: 2 bulls and 4 cows
 Turn 256:
-	> 570483
+	> 580793
 Grade: 3 bulls and 3 cows
 Turn 257:
-	> 750483
+	> 780593
 Grade: 2 bulls and 4 cows
 Turn 258:
-	> 057483
+	> 870593
 Grade: 1 bull and 5 cows
 Turn 259:
-	> 507483
+	> 078593
 Grade: 2 bulls and 4 cows
 Turn 260:
-	> 705483
+	> 708593
 Grade: 1 bull and 5 cows
 Turn 261:
-	> 075483
+	> 807593
 Grade: 1 bull and 5 cows
 Turn 262:
-	> 045783
-Grade: 2 bulls and 4 cows
+	> 087593
+Grade: 3 bulls and 3 cows
 Turn 263:
-	> 405783
+	> 057893
 Grade: 2 bulls and 4 cows
 Turn 264:
-	> 504783
-Grade: 3 bulls and 3 cows
+	> 507893
+Grade: 1 bull and 5 cows
 Turn 265:
-	> 054783
-Grade: 2 bulls and 4 cows
+	> 705893
+Grade: 1 bull and 5 cows
 Turn 266:
-	> 450783
-Grade: 3 bulls and 3 cows
-Turn 267:
-	> 540783
-Grade: 4 bulls and 2 cows
-Turn 268:
-	> 547083
+	> 075893
 Grade: 2 bulls and 4 cows
+Turn 267:
+	> 570893
+Grade: 1 bull and 5 cows
+Turn 268:
+	> 750893
+Grade: 1 bull and 5 cows
 Turn 269:
-	> 457083
+	> 758093
 Grade: 1 bull and 5 cows
 Turn 270:
-	> 754083
+	> 578093
 Grade: 1 bull and 5 cows
 Turn 271:
-	> 574083
-Grade: 2 bulls and 4 cows
+	> 875093
+Grade: 1 bull and 5 cows
 Turn 272:
-	> 475083
-Grade: 1 bull and 5 cows
+	> 785093
+Grade: 2 bulls and 4 cows
 Turn 273:
-	> 745083
-Grade: 1 bull and 5 cows
+	> 587093
+Grade: 2 bulls and 4 cows
 Turn 274:
-	> 845073
+	> 857093
 Grade: 1 bull and 5 cows
 Turn 275:
-	> 485073
-Grade: 2 bulls and 4 cows
+	> 957083
+Grade: 1 bull and 5 cows
 Turn 276:
-	> 584073
-Grade: 3 bulls and 3 cows
+	> 597083
+Grade: 1 bull and 5 cows
 Turn 277:
-	> 854073
+	> 795083
 Grade: 1 bull and 5 cows
 Turn 278:
-	> 458073
+	> 975083
 Grade: 1 bull and 5 cows
 Turn 279:
-	> 548073
+	> 579083
 Grade: 2 bulls and 4 cows
 Turn 280:
-	> 048573
-Grade: 1 bull and 5 cows
+	> 759083
+Grade: 2 bulls and 4 cows
 Turn 281:
-	> 408573
-Grade: 1 bull and 5 cows
+	> 059783
+Grade: 4 bulls and 2 cows
 Turn 282:
-	> 804573
-Grade: 1 bull and 5 cows
+	> 509783
+Grade: 3 bulls and 3 cows
 Turn 283:
-	> 084573
+	> 905783
 Grade: 2 bulls and 4 cows
 Turn 284:
-	> 480573
+	> 095783
 Grade: 3 bulls and 3 cows
 Turn 285:
-	> 840573
+	> 590783
 Grade: 2 bulls and 4 cows
 Turn 286:
-	> 850473
+	> 950783
 Grade: 2 bulls and 4 cows
 Turn 287:
-	> 580473
-Grade: 4 bulls and 2 cows
+	> 970583
+Grade: 1 bull and 5 cows
 Turn 288:
-	> 085473
-Grade: 2 bulls and 4 cows
+	> 790583
+Grade: 1 bull and 5 cows
 Turn 289:
-	> 805473
-Grade: 1 bull and 5 cows
-Turn 290:
-	> 508473
+	> 097583
 Grade: 2 bulls and 4 cows
+Turn 290:
+	> 907583
+Grade: 1 bull and 5 cows
 Turn 291:
-	> 058473
-Grade: 1 bull and 5 cows
+	> 709583
+Grade: 2 bulls and 4 cows
 Turn 292:
-	> 054873
-Grade: 1 bull and 5 cows
+	> 079583
+Grade: 3 bulls and 3 cows
 Turn 293:
-	> 504873
+	> 075983
 Grade: 2 bulls and 4 cows
 Turn 294:
-	> 405873
+	> 705983
 Grade: 1 bull and 5 cows
 Turn 295:
-	> 045873
+	> 507983
 Grade: 1 bull and 5 cows
 Turn 296:
-	> 540873
-Grade: 3 bulls and 3 cows
+	> 057983
+Grade: 2 bulls and 4 cows
 Turn 297:
-	> 450873
-Grade: 2 bulls and 4 cows
+	> 750983
+Grade: 1 bull and 5 cows
 Turn 298:
-	> 750843
-Grade: 3 bulls and 3 cows
+	> 570983
+Grade: 1 bull and 5 cows
 Turn 299:
-	> 570843
-Grade: 4 bulls and 2 cows
+	> 870953
+Grade: 2 bulls and 4 cows
 Turn 300:
-	> 075843
-Grade: 2 bulls and 4 cows
-Turn 301:
-	> 705843
-Grade: 2 bulls and 4 cows
-Turn 302:
-	> 507843
+	> 780953
 Grade: 3 bulls and 3 cows
+Turn 301:
+	> 087953
+Grade: 4 bulls and 2 cows
+Turn 302:
+	> 807953
+Grade: 2 bulls and 4 cows
 Turn 303:
-	> 057843
+	> 708953
 Grade: 2 bulls and 4 cows
 Turn 304:
-	> 857043
-Grade: 2 bulls and 4 cows
-Turn 305:
-	> 587043
-Grade: 4 bulls and 2 cows
-Turn 306:
-	> 785043
+	> 078953
 Grade: 3 bulls and 3 cows
+Turn 305:
+	> 978053
+Grade: 2 bulls and 4 cows
+Turn 306:
+	> 798053
+Grade: 2 bulls and 4 cows
 Turn 307:
-	> 875043
+	> 897053
 Grade: 2 bulls and 4 cows
 Turn 308:
-	> 578043
+	> 987053
 Grade: 3 bulls and 3 cows
 Turn 309:
-	> 758043
-Grade: 2 bulls and 4 cows
+	> 789053
+Grade: 4 bulls and 2 cows
 Turn 310:
-	> 708543
-Grade: 2 bulls and 4 cows
+	> 879053
+Grade: 3 bulls and 3 cows
 Turn 311:
-	> 078543
-Grade: 2 bulls and 4 cows
+	> 809753
+Grade: 4 bulls and 2 cows
 Turn 312:
-	> 870543
-Grade: 3 bulls and 3 cows
-Turn 313:
-	> 780543
-Grade: 4 bulls and 2 cows
-Turn 314:
-	> 087543
-Grade: 3 bulls and 3 cows
-Turn 315:
-	> 807543
-Grade: 2 bulls and 4 cows
-Turn 316:
-	> 805743
-Grade: 3 bulls and 3 cows
-Turn 317:
-	> 085743
-Grade: 4 bulls and 2 cows
-Turn 318:
-	> 580743
+	> 089753
 Grade: 6 bulls
 /Congratulations! You guessed the secret code.
 [1;31m
 Start test 4[0m
-)Please, enter the secret code's length:
+&Input the length of the secret code:
 > 11
-fError: can't generate a secret number with a length of 11 because there aren't enough unique digits.
+3Input the number of possible symbols in the code:
+> 10
+YError: it's not possible to generate a code with a length of 11 with 10 unique symbols.
+[1;31m
+Start test 5[0m
+&Input the length of the secret code:
+> 4
+3Input the number of possible symbols in the code:
+> 16
+)The secret is prepared: **** (0-9, a-f).
 Okay, let's start a game!
 	Turn 1:
+> 0000
+Grade: 1 bull and 3 cows
+	Turn 2:
+> 1111
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 3:
+> 2222
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 4:
+> 3333
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 5:
+> 4444
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 6:
+> 5555
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 7:
+> 6666
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 8:
+> 7777
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 9:
+> 8888
+Grade: 1 bull and 3 cows
+
+Turn 10:
+> 9999
+Grade: 1 bull and 3 cows
+
+Turn 11:
+> aaaa
+"aaaa" isn't a valid number.
+NGrade: Cannot find number of bulls or number of cows or None after the input
+
+Turn 12:
+> bbbb
+"bbbb" isn't a valid number.
+NGrade: Cannot find number of bulls or number of cows or None after the input
+
+Turn 13:
+> cccc
+"cccc" isn't a valid number.
+Grade: 1 bull and 3 cows
+
+Turn 14:
+> 089c
+"089c" isn't a valid number.
+Grade: 2 bulls and 2 cows
+
+Turn 15:
+> 809c
+"809c" isn't a valid number.
+Grade: 4 cows
+
+Turn 16:
+> 908c
+"908c" isn't a valid number.
+Grade: 4 cows
+
+Turn 17:
+> 098c
+"098c" isn't a valid number.
+Grade: 1 bull and 3 cows
+
+Turn 18:
+> 890c
+"890c" isn't a valid number.
+Grade: 4 cows
+
+Turn 19:
+> 980c
+"980c" isn't a valid number.
+Grade: 1 bull and 3 cows
+
+Turn 20:
+> c809
+"c809" isn't a valid number.
+Grade: 2 bulls and 2 cows
+
+Turn 21:
+> 8c09
+"8c09" isn't a valid number.
+Grade: 1 bull and 3 cows
+
+Turn 22:
+> 0c89
+"0c89" isn't a valid number.
+Grade: 2 bulls and 2 cows
+
+Turn 23:
+> c089
+"c089" isn't a valid number.
+Grade: 1 bull and 3 cows
+
+Turn 24:
+> 80c9
+"80c9" isn't a valid number.
+Grade: 2 bulls and 2 cows
+
+Turn 25:
+> 08c9
+"08c9" isn't a valid number.
+Grade: 4 bulls
+/Congratulations! You guessed the secret code.
+[1;31m
+Start test 6[0m
+&Input the length of the secret code:
+> 6
+3Input the number of possible symbols in the code:
+> 36
++The secret is prepared: ****** (0-9, a-z).
+Okay, let's start a game!
+	Turn 1:
+	> 000000
+Grade: 1 bull and 5 cows
+	Turn 2:
+	> 111111
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 3:
+	> 222222
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 4:
+	> 333333
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 5:
+	> 444444
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 6:
+	> 555555
+Grade: 1 bull and 5 cows
+	Turn 7:
+	> 666666
+NGrade: Cannot find number of bulls or number of cows or None after the input
+	Turn 8:
+	> 777777
+Grade: 1 bull and 5 cows
+	Turn 9:
+	> 888888
+Grade: 1 bull and 5 cows
+
+Turn 10:
+	> 999999
+Grade: 1 bull and 5 cows
+
+Turn 11:
+	> aaaaaa
+ "aaaaaa" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 12:
+	> 05789a
+ "05789a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 13:
+	> 50789a
+ "50789a" isn't a valid number.
+Grade: 6 cows
+
+Turn 14:
+	> 70589a
+ "70589a" isn't a valid number.
+Grade: 6 cows
+
+Turn 15:
+	> 07589a
+ "07589a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 16:
+	> 57089a
+ "57089a" isn't a valid number.
+Grade: 6 cows
+
+Turn 17:
+	> 75089a
+ "75089a" isn't a valid number.
+Grade: 6 cows
+
+Turn 18:
+	> 85079a
+ "85079a" isn't a valid number.
+Grade: 6 cows
+
+Turn 19:
+	> 58079a
+ "58079a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 20:
+	> 08579a
+ "08579a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 21:
+	> 80579a
+ "80579a" isn't a valid number.
+Grade: 6 cows
+
+Turn 22:
+	> 50879a
+ "50879a" isn't a valid number.
+Grade: 6 cows
+
+Turn 23:
+	> 05879a
+ "05879a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 24:
+	> 07859a
+ "07859a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 25:
+	> 70859a
+ "70859a" isn't a valid number.
+Grade: 6 cows
+
+Turn 26:
+	> 80759a
+ "80759a" isn't a valid number.
+Grade: 6 cows
+
+Turn 27:
+	> 08759a
+ "08759a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 28:
+	> 78059a
+ "78059a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 29:
+	> 87059a
+ "87059a" isn't a valid number.
+Grade: 6 cows
+
+Turn 30:
+	> 87509a
+ "87509a" isn't a valid number.
+Grade: 6 cows
+
+Turn 31:
+	> 78509a
+ "78509a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 32:
+	> 58709a
+ "58709a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 33:
+	> 85709a
+ "85709a" isn't a valid number.
+Grade: 6 cows
+
+Turn 34:
+	> 75809a
+ "75809a" isn't a valid number.
+Grade: 6 cows
+
+Turn 35:
+	> 57809a
+ "57809a" isn't a valid number.
+Grade: 6 cows
+
+Turn 36:
+	> 97805a
+ "97805a" isn't a valid number.
+Grade: 6 cows
+
+Turn 37:
+	> 79805a
+ "79805a" isn't a valid number.
+Grade: 6 cows
+
+Turn 38:
+	> 89705a
+ "89705a" isn't a valid number.
+Grade: 6 cows
+
+Turn 39:
+	> 98705a
+ "98705a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 40:
+	> 78905a
+ "78905a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 41:
+	> 87905a
+ "87905a" isn't a valid number.
+Grade: 6 cows
+
+Turn 42:
+	> 07985a
+ "07985a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 43:
+	> 70985a
+ "70985a" isn't a valid number.
+Grade: 6 cows
+
+Turn 44:
+	> 90785a
+ "90785a" isn't a valid number.
+Grade: 6 cows
+
+Turn 45:
+	> 09785a
+ "09785a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 46:
+	> 79085a
+ "79085a" isn't a valid number.
+Grade: 6 cows
+
+Turn 47:
+	> 97085a
+ "97085a" isn't a valid number.
+Grade: 6 cows
+
+Turn 48:
+	> 98075a
+ "98075a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 49:
+	> 89075a
+ "89075a" isn't a valid number.
+Grade: 6 cows
+
+Turn 50:
+	> 09875a
+ "09875a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 51:
+	> 90875a
+ "90875a" isn't a valid number.
+Grade: 6 cows
+
+Turn 52:
+	> 80975a
+ "80975a" isn't a valid number.
+Grade: 6 cows
+
+Turn 53:
+	> 08975a
+ "08975a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 54:
+	> 08795a
+ "08795a" isn't a valid number.
+Grade: 3 bulls and 3 cows
+
+Turn 55:
+	> 80795a
+ "80795a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 56:
+	> 70895a
+ "70895a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 57:
+	> 07895a
+ "07895a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 58:
+	> 87095a
+ "87095a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 59:
+	> 78095a
+ "78095a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 60:
+	> 58097a
+ "58097a" isn't a valid number.
+Grade: 3 bulls and 3 cows
+
+Turn 61:
+	> 85097a
+ "85097a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 62:
+	> 05897a
+ "05897a" isn't a valid number.
+Grade: 3 bulls and 3 cows
+
+Turn 63:
+	> 50897a
+ "50897a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 64:
+	> 80597a
+ "80597a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 65:
+	> 08597a
+ "08597a" isn't a valid number.
+Grade: 4 bulls and 2 cows
+
+Turn 66:
+	> 98507a
+ "98507a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 67:
+	> 89507a
+ "89507a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 68:
+	> 59807a
+ "59807a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 69:
+	> 95807a
+ "95807a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 70:
+	> 85907a
+ "85907a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 71:
+	> 58907a
+ "58907a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 72:
+	> 50987a
+ "50987a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 73:
+	> 05987a
+ "05987a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 74:
+	> 95087a
+ "95087a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 75:
+	> 59087a
+ "59087a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 76:
+	> 09587a
+ "09587a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 77:
+	> 90587a
+ "90587a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 78:
+	> 90857a
+ "90857a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 79:
+	> 09857a
+ "09857a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 80:
+	> 89057a
+ "89057a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 81:
+	> 98057a
+ "98057a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 82:
+	> 08957a
+ "08957a" isn't a valid number.
+Grade: 3 bulls and 3 cows
+
+Turn 83:
+	> 80957a
+ "80957a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 84:
+	> 70958a
+ "70958a" isn't a valid number.
+Grade: 6 cows
+
+Turn 85:
+	> 07958a
+ "07958a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 86:
+	> 97058a
+ "97058a" isn't a valid number.
+Grade: 6 cows
+
+Turn 87:
+	> 79058a
+ "79058a" isn't a valid number.
+Grade: 6 cows
+
+Turn 88:
+	> 09758a
+ "09758a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 89:
+	> 90758a
+ "90758a" isn't a valid number.
+Grade: 6 cows
+
+Turn 90:
+	> 50798a
+ "50798a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 91:
+	> 05798a
+ "05798a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 92:
+	> 75098a
+ "75098a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 93:
+	> 57098a
+ "57098a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 94:
+	> 07598a
+ "07598a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+
+Turn 95:
+	> 70598a
+ "70598a" isn't a valid number.
+Grade: 1 bull and 5 cows
+
+Turn 96:
+	> 79508a
+ "79508a" isn't a valid number.
+Grade: 6 cows
+
+Turn 97:
+	> 97508a
+ "97508a" isn't a valid number.
+Grade: 6 cows
+
+Turn 98:
+	> 57908a
+ "57908a" isn't a valid number.
+Grade: 6 cows
+
+Turn 99:
+	> 75908a
+ "75908a" isn't a valid number.
+Grade: 6 cows
+Turn 100:
+	> 95708a
+ "95708a" isn't a valid number.
+Grade: 6 cows
+Turn 101:
+	> 59708a
+ "59708a" isn't a valid number.
+Grade: 6 cows
+Turn 102:
+	> 59078a
+ "59078a" isn't a valid number.
+Grade: 6 cows
+Turn 103:
+	> 95078a
+ "95078a" isn't a valid number.
+Grade: 6 cows
+Turn 104:
+	> 05978a
+ "05978a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 105:
+	> 50978a
+ "50978a" isn't a valid number.
+Grade: 6 cows
+Turn 106:
+	> 90578a
+ "90578a" isn't a valid number.
+Grade: 6 cows
+Turn 107:
+	> 09578a
+ "09578a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 108:
+	> 89570a
+ "89570a" isn't a valid number.
+Grade: 6 cows
+Turn 109:
+	> 98570a
+ "98570a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 110:
+	> 58970a
+ "58970a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 111:
+	> 85970a
+ "85970a" isn't a valid number.
+Grade: 6 cows
+Turn 112:
+	> 95870a
+ "95870a" isn't a valid number.
+Grade: 6 cows
+Turn 113:
+	> 59870a
+ "59870a" isn't a valid number.
+Grade: 6 cows
+Turn 114:
+	> 79850a
+ "79850a" isn't a valid number.
+Grade: 6 cows
+Turn 115:
+	> 97850a
+ "97850a" isn't a valid number.
+Grade: 6 cows
+Turn 116:
+	> 87950a
+ "87950a" isn't a valid number.
+Grade: 6 cows
+Turn 117:
+	> 78950a
+ "78950a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 118:
+	> 98750a
+ "98750a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 119:
+	> 89750a
+ "89750a" isn't a valid number.
+Grade: 6 cows
+Turn 120:
+	> 85790a
+ "85790a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 121:
+	> 58790a
+ "58790a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 122:
+	> 78590a
+ "78590a" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 123:
+	> 87590a
+ "87590a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 124:
+	> 57890a
+ "57890a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 125:
+	> 75890a
+ "75890a" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 126:
+	> 75980a
+ "75980a" isn't a valid number.
+Grade: 6 cows
+Turn 127:
+	> 57980a
+ "57980a" isn't a valid number.
+Grade: 6 cows
+Turn 128:
+	> 97580a
+ "97580a" isn't a valid number.
+Grade: 6 cows
+Turn 129:
+	> 79580a
+ "79580a" isn't a valid number.
+Grade: 6 cows
+Turn 130:
+	> 59780a
+ "59780a" isn't a valid number.
+Grade: 6 cows
+Turn 131:
+	> 95780a
+ "95780a" isn't a valid number.
+Grade: 6 cows
+Turn 132:
+	> a57809
+ "a57809" isn't a valid number.
+Grade: 6 cows
+Turn 133:
+	> 5a7809
+ "5a7809" isn't a valid number.
+Grade: 6 cows
+Turn 134:
+	> 7a5809
+ "7a5809" isn't a valid number.
+Grade: 6 cows
+Turn 135:
+	> a75809
+ "a75809" isn't a valid number.
+Grade: 6 cows
+Turn 136:
+	> 57a809
+ "57a809" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 137:
+	> 75a809
+ "75a809" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 138:
+	> 85a709
+ "85a709" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 139:
+	> 58a709
+ "58a709" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 140:
+	> a85709
+ "a85709" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 141:
+	> 8a5709
+ "8a5709" isn't a valid number.
+Grade: 6 cows
+Turn 142:
+	> 5a8709
+ "5a8709" isn't a valid number.
+Grade: 6 cows
+Turn 143:
+	> a58709
+ "a58709" isn't a valid number.
+Grade: 6 cows
+Turn 144:
+	> a78509
+ "a78509" isn't a valid number.
+Grade: 6 cows
+Turn 145:
+	> 7a8509
+ "7a8509" isn't a valid number.
+Grade: 6 cows
+Turn 146:
+	> 8a7509
+ "8a7509" isn't a valid number.
+Grade: 6 cows
+Turn 147:
+	> a87509
+ "a87509" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 148:
+	> 78a509
+ "78a509" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 149:
+	> 87a509
+ "87a509" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 150:
+	> 875a09
+ "875a09" isn't a valid number.
+Grade: 6 cows
+Turn 151:
+	> 785a09
+ "785a09" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 152:
+	> 587a09
+ "587a09" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 153:
+	> 857a09
+ "857a09" isn't a valid number.
+Grade: 6 cows
+Turn 154:
+	> 758a09
+ "758a09" isn't a valid number.
+Grade: 6 cows
+Turn 155:
+	> 578a09
+ "578a09" isn't a valid number.
+Grade: 6 cows
+Turn 156:
+	> 078a59
+ "078a59" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 157:
+	> 708a59
+ "708a59" isn't a valid number.
+Grade: 6 cows
+Turn 158:
+	> 807a59
+ "807a59" isn't a valid number.
+Grade: 6 cows
+Turn 159:
+	> 087a59
+ "087a59" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 160:
+	> 780a59
+ "780a59" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 161:
+	> 870a59
+ "870a59" isn't a valid number.
+Grade: 6 cows
+Turn 162:
+	> a70859
+ "a70859" isn't a valid number.
+Grade: 6 cows
+Turn 163:
+	> 7a0859
+ "7a0859" isn't a valid number.
+Grade: 6 cows
+Turn 164:
+	> 0a7859
+ "0a7859" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 165:
+	> a07859
+ "a07859" isn't a valid number.
+Grade: 6 cows
+Turn 166:
+	> 70a859
+ "70a859" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 167:
+	> 07a859
+ "07a859" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 168:
+	> 08a759
+ "08a759" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 169:
+	> 80a759
+ "80a759" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 170:
+	> a08759
+ "a08759" isn't a valid number.
+Grade: 6 cows
+Turn 171:
+	> 0a8759
+ "0a8759" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 172:
+	> 8a0759
+ "8a0759" isn't a valid number.
+Grade: 6 cows
+Turn 173:
+	> a80759
+ "a80759" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 174:
+	> a87059
+ "a87059" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 175:
+	> 8a7059
+ "8a7059" isn't a valid number.
+Grade: 6 cows
+Turn 176:
+	> 7a8059
+ "7a8059" isn't a valid number.
+Grade: 6 cows
+Turn 177:
+	> a78059
+ "a78059" isn't a valid number.
+Grade: 6 cows
+Turn 178:
+	> 87a059
+ "87a059" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 179:
+	> 78a059
+ "78a059" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 180:
+	> 58a079
+ "58a079" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 181:
+	> 85a079
+ "85a079" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 182:
+	> a58079
+ "a58079" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 183:
+	> 5a8079
+ "5a8079" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 184:
+	> 8a5079
+ "8a5079" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 185:
+	> a85079
+ "a85079" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 186:
+	> 085a79
+ "085a79" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 187:
+	> 805a79
+ "805a79" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 188:
+	> 508a79
+ "508a79" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 189:
+	> 058a79
+ "058a79" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 190:
+	> 850a79
+ "850a79" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 191:
+	> 580a79
+ "580a79" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 192:
+	> 5a0879
+ "5a0879" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 193:
+	> a50879
+ "a50879" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 194:
+	> 05a879
+ "05a879" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 195:
+	> 50a879
+ "50a879" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 196:
+	> a05879
+ "a05879" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 197:
+	> 0a5879
+ "0a5879" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 198:
+	> 0a8579
+ "0a8579" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 199:
+	> a08579
+ "a08579" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 200:
+	> 80a579
+ "80a579" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 201:
+	> 08a579
+ "08a579" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 202:
+	> a80579
+ "a80579" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 203:
+	> 8a0579
+ "8a0579" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 204:
+	> 7a0589
+ "7a0589" isn't a valid number.
+Grade: 6 cows
+Turn 205:
+	> a70589
+ "a70589" isn't a valid number.
+Grade: 6 cows
+Turn 206:
+	> 07a589
+ "07a589" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 207:
+	> 70a589
+ "70a589" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 208:
+	> a07589
+ "a07589" isn't a valid number.
+Grade: 6 cows
+Turn 209:
+	> 0a7589
+ "0a7589" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 210:
+	> 5a7089
+ "5a7089" isn't a valid number.
+Grade: 6 cows
+Turn 211:
+	> a57089
+ "a57089" isn't a valid number.
+Grade: 6 cows
+Turn 212:
+	> 75a089
+ "75a089" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 213:
+	> 57a089
+ "57a089" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 214:
+	> a75089
+ "a75089" isn't a valid number.
+Grade: 6 cows
+Turn 215:
+	> 7a5089
+ "7a5089" isn't a valid number.
+Grade: 6 cows
+Turn 216:
+	> 705a89
+ "705a89" isn't a valid number.
+Grade: 6 cows
+Turn 217:
+	> 075a89
+ "075a89" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 218:
+	> 570a89
+ "570a89" isn't a valid number.
+Grade: 6 cows
+Turn 219:
+	> 750a89
+ "750a89" isn't a valid number.
+Grade: 6 cows
+Turn 220:
+	> 057a89
+ "057a89" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 221:
+	> 507a89
+ "507a89" isn't a valid number.
+Grade: 6 cows
+Turn 222:
+	> 50a789
+ "50a789" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 223:
+	> 05a789
+ "05a789" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 224:
+	> a50789
+ "a50789" isn't a valid number.
+Grade: 6 cows
+Turn 225:
+	> 5a0789
+ "5a0789" isn't a valid number.
+Grade: 6 cows
+Turn 226:
+	> 0a5789
+ "0a5789" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 227:
+	> a05789
+ "a05789" isn't a valid number.
+Grade: 6 cows
+Turn 228:
+	> 8057a9
+ "8057a9" isn't a valid number.
+Grade: 6 cows
+Turn 229:
+	> 0857a9
+ "0857a9" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 230:
+	> 5807a9
+ "5807a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 231:
+	> 8507a9
+ "8507a9" isn't a valid number.
+Grade: 6 cows
+Turn 232:
+	> 0587a9
+ "0587a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 233:
+	> 5087a9
+ "5087a9" isn't a valid number.
+Grade: 6 cows
+Turn 234:
+	> 7085a9
+ "7085a9" isn't a valid number.
+Grade: 6 cows
+Turn 235:
+	> 0785a9
+ "0785a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 236:
+	> 8705a9
+ "8705a9" isn't a valid number.
+Grade: 6 cows
+Turn 237:
+	> 7805a9
+ "7805a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 238:
+	> 0875a9
+ "0875a9" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 239:
+	> 8075a9
+ "8075a9" isn't a valid number.
+Grade: 6 cows
+Turn 240:
+	> 8570a9
+ "8570a9" isn't a valid number.
+Grade: 6 cows
+Turn 241:
+	> 5870a9
+ "5870a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 242:
+	> 7850a9
+ "7850a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 243:
+	> 8750a9
+ "8750a9" isn't a valid number.
+Grade: 6 cows
+Turn 244:
+	> 5780a9
+ "5780a9" isn't a valid number.
+Grade: 6 cows
+Turn 245:
+	> 7580a9
+ "7580a9" isn't a valid number.
+Grade: 6 cows
+Turn 246:
+	> 7508a9
+ "7508a9" isn't a valid number.
+Grade: 6 cows
+Turn 247:
+	> 5708a9
+ "5708a9" isn't a valid number.
+Grade: 6 cows
+Turn 248:
+	> 0758a9
+ "0758a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 249:
+	> 7058a9
+ "7058a9" isn't a valid number.
+Grade: 6 cows
+Turn 250:
+	> 5078a9
+ "5078a9" isn't a valid number.
+Grade: 6 cows
+Turn 251:
+	> 0578a9
+ "0578a9" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 252:
+	> 0978a5
+ "0978a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 253:
+	> 9078a5
+ "9078a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 254:
+	> 7098a5
+ "7098a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 255:
+	> 0798a5
+ "0798a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 256:
+	> 9708a5
+ "9708a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 257:
+	> 7908a5
+ "7908a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 258:
+	> 8907a5
+ "8907a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 259:
+	> 9807a5
+ "9807a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 260:
+	> 0897a5
+ "0897a5" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 261:
+	> 8097a5
+ "8097a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 262:
+	> 9087a5
+ "9087a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 263:
+	> 0987a5
+ "0987a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 264:
+	> 0789a5
+ "0789a5" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 265:
+	> 7089a5
+ "7089a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 266:
+	> 8079a5
+ "8079a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 267:
+	> 0879a5
+ "0879a5" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 268:
+	> 7809a5
+ "7809a5" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 269:
+	> 8709a5
+ "8709a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 270:
+	> 8790a5
+ "8790a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 271:
+	> 7890a5
+ "7890a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 272:
+	> 9870a5
+ "9870a5" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 273:
+	> 8970a5
+ "8970a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 274:
+	> 7980a5
+ "7980a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 275:
+	> 9780a5
+ "9780a5" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 276:
+	> a78095
+ "a78095" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 277:
+	> 7a8095
+ "7a8095" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 278:
+	> 8a7095
+ "8a7095" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 279:
+	> a87095
+ "a87095" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 280:
+	> 78a095
+ "78a095" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 281:
+	> 87a095
+ "87a095" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 282:
+	> 07a895
+ "07a895" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 283:
+	> 70a895
+ "70a895" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 284:
+	> a07895
+ "a07895" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 285:
+	> 0a7895
+ "0a7895" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 286:
+	> 7a0895
+ "7a0895" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 287:
+	> a70895
+ "a70895" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 288:
+	> a80795
+ "a80795" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 289:
+	> 8a0795
+ "8a0795" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 290:
+	> 0a8795
+ "0a8795" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 291:
+	> a08795
+ "a08795" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 292:
+	> 80a795
+ "80a795" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 293:
+	> 08a795
+ "08a795" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 294:
+	> 087a95
+ "087a95" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 295:
+	> 807a95
+ "807a95" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 296:
+	> 708a95
+ "708a95" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 297:
+	> 078a95
+ "078a95" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 298:
+	> 870a95
+ "870a95" isn't a valid number.
+Grade: 1 bull and 5 cows
+Turn 299:
+	> 780a95
+ "780a95" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 300:
+	> 980a75
+ "980a75" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 301:
+	> 890a75
+ "890a75" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 302:
+	> 098a75
+ "098a75" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 303:
+	> 908a75
+ "908a75" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 304:
+	> 809a75
+ "809a75" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 305:
+	> 089a75
+ "089a75" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 306:
+	> a89075
+ "a89075" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 307:
+	> 8a9075
+ "8a9075" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 308:
+	> 9a8075
+ "9a8075" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 309:
+	> a98075
+ "a98075" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 310:
+	> 89a075
+ "89a075" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 311:
+	> 98a075
+ "98a075" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 312:
+	> 90a875
+ "90a875" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 313:
+	> 09a875
+ "09a875" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 314:
+	> a90875
+ "a90875" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 315:
+	> 9a0875
+ "9a0875" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 316:
+	> 0a9875
+ "0a9875" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 317:
+	> a09875
+ "a09875" isn't a valid number.
+Grade: 2 bulls and 4 cows
+Turn 318:
+	> a08975
+ "a08975" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 319:
+	> 0a8975
+ "0a8975" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 320:
+	> 8a0975
+ "8a0975" isn't a valid number.
+Grade: 3 bulls and 3 cows
+Turn 321:
+	> a80975
+ "a80975" isn't a valid number.
+Grade: 4 bulls and 2 cows
+Turn 322:
+	> 08a975
+ "08a975" isn't a valid number.
+Grade: 6 bulls
+/Congratulations! You guessed the secret code.
+[1;31m
+Start test 7[0m
+&Input the length of the secret code:
+> 0
+"Error: "0" isn't a valid number.
+[1;31m
+Start test 8[0m
+&Input the length of the secret code:
+> 10
+3Input the number of possible symbols in the code:
+> 9
+XError: it's not possible to generate a code with a length of 10 with 9 unique symbols.
+[1;31m
+Start test 9[0m
+&Input the length of the secret code:
+> 9
+3Input the number of possible symbols in the code:
+> 37
+IError: maximum number of possible symbols in the code is 36 (0-9, a-z).
+[1;31m
+Start test 10[0m
+&Input the length of the secret code:
+> abcdefg 1 -6
+-Error: "abcdefg 1 -6" isn't a valid number.

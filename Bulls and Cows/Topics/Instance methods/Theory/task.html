@@ -17,7 +17,7 @@
     }
 }</code></pre> 
   <p>Modifier <code class="language-java">public</code> isn't important for us now. It just means that other classes can also get access to our methods.</p> 
-  <p>As you see, methods <code class="language-java">printStatic</code> and <code class="language-java">printInstance</code> have differences in the declarations. When you see a method you can easily understand: if there is a word <code class="language-java">static</code> when the method is <strong>static</strong> if there is no word <code class="language-java">static</code> when the method is an <strong>instance </strong>one.</p> 
+  <p>As you see, methods <code class="language-java">printStatic</code> and <code class="language-java">printInstance</code> have differences in the declarations. When you see a method you can easily understand: if there is a word <code class="language-java">static</code> then the method is <strong>static</strong> if there is no word <code class="language-java">static</code> then the method is an <strong>instance </strong>one.</p> 
   <p>Now let's see what this really means!</p> 
   <h2>Understanding: static and instance </h2> 
   <p>To invoke a static method we <em>don't need to create an object</em>. We just write the name of the method and that's it.</p> 
@@ -50,7 +50,7 @@
     }
 
     public void work() {
-        System.out.println(this.name + " love working!");
+        System.out.println(this.name + " loves working!");
     }
 }</code></pre> 
   <p>The keyword <code class="language-java">this</code> represents a particular instance of the class.</p> 
