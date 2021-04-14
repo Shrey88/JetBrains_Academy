@@ -12,6 +12,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Bulls and Cows/task" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/An expression with large numbers" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Comparing numbers" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Double factorial" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/The smallest value" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Theory" />
             <option value="$PROJECT_DIR$/Topics/Constructor/Book" />
             <option value="$PROJECT_DIR$/Topics/Constructor/Complex numbers" />
             <option value="$PROJECT_DIR$/Topics/Constructor/Theory" />
