@@ -1,8 +1,15 @@
 battleship/Main.java
  battleship.Main
+battleship/Game.java
+ battleship.Game
 battleship/Battleship.java
  battleship.Battleship
  battleship.Battleship$1
- battleship.Battleship$LOCATION
  battleship.Battleship$SHIPS
- battleship.Battleship$VERTICAL_POS
+battleship/Players.java
+ battleship.Players
+battleship/BattleField.java
+ battleship.BattleField
+ battleship.BattleField$LOCATION
+ battleship.BattleField$SHOT
+ battleship.BattleField$VERTICAL_POS

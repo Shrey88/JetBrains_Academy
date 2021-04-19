@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Employee {
+
+        String name;
+        int salary;
+        String address;
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3006#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 17 Apr 2021 10:11:08 UTC
+record: -1
